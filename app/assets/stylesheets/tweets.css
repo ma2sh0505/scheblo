@@ -52,3 +52,10 @@
   background-color: rgb(205, 202, 202);
   object-fit: contain;
 }
+
+.show-come {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0, 500px;
+}

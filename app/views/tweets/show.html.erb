@@ -4,25 +4,26 @@
 
  <div class="form">
   <p>
-   <strong>タイトル</strong>
+   <strong>：</strong>
    <%= @tweet.title %>
   </p>
 
    <p>
-    <strong>時間</strong>
+    <strong>日時</strong>
     <%= @tweet.start_time.strftime("%Y-%m-%d %H:%M") %>
    </p>
    
+   <p class="show-come">
+    <strong>コメント</strong>
+    <%= @tweet.content %>
+   </p>
+
+
    <% unless @tweet.nil?  ==  @tweet.image.attached?%>
    <p>
    <%= image_tag @tweet.image ,class:"item-box-img" %>
    </p>
    <% end %>
-
-   <p>
-    <strong>内容</strong>
-    <%= @tweet.content %>
-   </p>
 
    <div class="abc">
    <%= link_to '編集',edit_tweet_path(@tweet) %> |
