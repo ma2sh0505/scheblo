@@ -1,0 +1,22 @@
+<%= render "header" %>
+
+<p id="notice"><%= notice %></p>
+
+
+
+<br>
+
+<%= link_to 'カレンダーへ投稿',"/tweets/new"%>
+
+<%= month_calendar events: @tweets do |date, tweets| %>
+  <%= date.day %>
+
+  <%tweets.each do |tweet| %>
+   <div class="schedule">
+     <%= link_to tweet.title, tweet %>
+   </div>
+  <% end %>
+<% end %>
+
+<footer>
+</footer>
