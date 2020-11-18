@@ -1,6 +1,6 @@
 <%= render "header" %>
 
-<%= form_with(model: @tweet, local: true) do |f| %>
+<%= form_with model: @tweet, local: true  do |f| %>
 
 
   <div class="form">
@@ -17,7 +17,7 @@
    
    <div class="image">
      <%= f.label "画像" %>
-     <%= f.text_field :hoge %>
+     <%= f.file_field :image, id:"item-image" %>
    </div>
 
    <div class="time">

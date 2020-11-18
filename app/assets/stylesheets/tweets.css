@@ -44,3 +44,11 @@
   margin-left: 1000px;
   margin-top: 50px;
 }
+
+.item-box-img {
+  height: 50vh;
+  width: 60vw;
+  min-height: 400px;
+  background-color: rgb(205, 202, 202);
+  object-fit: contain;
+}
