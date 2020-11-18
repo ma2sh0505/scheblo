@@ -3,11 +3,12 @@
   
   
    <ul class='lists-right'>
-      <%# if user_signed_in? %>
-       <li><%= link_to 'ログアウト', "#", method: :delete, class: "logout" %></li>
-      <%# else %>
+      <% if user_signed_in? %>
+       <li><%= link_to "ようこそ、#{current_user.name}さん", "#", class: "login" %></li>
+       <li><%= link_to 'ログアウト', "#", method: :delete, class: "login" %></li>
+      <% else %>
        <li><%= link_to 'ログイン', new_user_session_path,method: :get, class: "login" %></li>
-       <li><%= link_to '新規登録', new_user_registration_path,method: :get, class: "sign-up" %></li>
-      <%# end %>
+       <li><%= link_to '新規登録', new_user_registration_path,method: :get, class: "login" %></li>
+      <% end %>
    </ul>
 </header>
