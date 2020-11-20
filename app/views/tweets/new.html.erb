@@ -6,27 +6,29 @@
   <div class="form">
 
    <div class="title">
-     <%= f.label "タイトル" %>
+     <%= f.label "タイトル(必須)" %>
      <%= f.text_field :title %>
    </div>
 
+   <div class="time">
+     <%= f.label "日時(必須)" %>
+     <%= f.datetime_select :start_time %>
+   </div>
+
    <div class="content">
-     <%= f.label "投稿文" %>
+     <%= f.label "コメント(任意)" %>
      <%= f.text_field :content %>
    </div>
    
    <div class="image">
-     <%= f.label "画像" %>
+     <%= f.label "画像(任意)" %>
      <%= f.file_field :image, id:"item-image" %>
    </div>
 
-   <div class="time">
-     <%= f.label "日時" %>
-     <%= f.datetime_select :start_time %>
-   </div>
+   
 
    <div class="submit">
-     <%= f.submit "カレンダーへ" %>
+     <%= f.submit "送信" %>
    </div>
 
    

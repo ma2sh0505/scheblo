@@ -5,15 +5,19 @@
 
 
 <br>
-
+<% if user_signed_in? %>
 <%= link_to 'カレンダーへ投稿',"/tweets/new"%>
-
+<% end%>
 <%= month_calendar events: @tweets do |date, tweets| %>
   <%= date.day %>
 
   <%tweets.each do |tweet| %>
    <div class="schedule">
+   <% if user_signed_in? %>
+   <% if current_user.id == tweet.user_id %>
      <%= link_to tweet.title, tweet %>
+   <% end %>
+   <% end %>
    </div>
   <% end %>
 <% end %>
