@@ -76,3 +76,12 @@
 
 ## ER図
  ![ER図](https://user-images.githubusercontent.com/72375725/100192677-ba483a80-2f35-11eb-8f53-c80bd38fb7b9.png)
+
+
+ ## ローカルでの動作方法
+  利用するディレクトリ下で
+  - []git https://github.com/ma2sh0505/scheblo.git
+  - []cd scheblo
+  - []bundle instal
+  - []cd db:create
+  - []cd db:migrate
