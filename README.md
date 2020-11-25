@@ -42,6 +42,7 @@
  **テーブル設計とER図**
 
  
+## テーブル設計
 
 ## users テーブル
 
@@ -69,5 +70,5 @@
 - belongs_to :user
 
 
- 
+## ER図
  ![ER図](https://user-images.githubusercontent.com/72375725/100192677-ba483a80-2f35-11eb-8f53-c80bd38fb7b9.png)
