@@ -1,6 +1,6 @@
  # ScheduleBlog
 
-- 概要  
+ **概要**  
 このアプリケーションを用いることでカレンダーに投稿したタイトルが表示され何日に何をするのか何をしたのかを見ることができます。予定を記入するほかブログとしても利用できるように投稿内容にコメントや画像投稿が出来るようにしてあります。
 
 - URL:https://scheblo.herokuapp.com/
@@ -41,10 +41,6 @@
 
  **テーブル設計とER図**
 
-
-
-# テーブル設計
-
  
 
 ## users テーブル
@@ -74,4 +70,4 @@
 
 
  
-![ScreenShot](https://i.gyazo.com/df4c5a3a7ec59bc490c9b5af9387ed80.png）
+![ScreenShot]( https://i.gyazo.com/df4c5a3a7ec59bc490c9b5af9387ed80.png ）
