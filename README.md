@@ -40,7 +40,9 @@
 
  **ユーザー登録機能**
 - deviseというgemを利用してユーザーのログイン機能を実装し他のユーザから投稿が見られないようにする。
-![image](https://user-images.githubusercontent.com/72375725/100194507-28dac780-2f39-11eb-8856-9e72d4c7ca47.png)
+![image](https://user-images.githubusercontent.com/72375725/100200016-62afcc00-2f41-11eb-8004-adaadb3d4292.png)
+右上にようこそ〜〜さんという表記がされて他のユーザーの投稿が見えなくなる
+![image](https://user-images.githubusercontent.com/72375725/100200105-7f4c0400-2f41-11eb-925d-24f1daffe02c.png)
 
 
  **画像投稿機能**
