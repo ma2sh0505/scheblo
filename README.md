@@ -5,7 +5,7 @@
 - URL:
 
  **テスト用アカウント**
-- Basic認証  name sh05  password 0505
+- Basic認証  name sh05  password 5555
 - アドレス  simple@com
 - パスワード  123abc
 
