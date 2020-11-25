@@ -7,11 +7,11 @@
 
  **テスト用アカウント**
 - Basic認証
-  name sh05
-  password 5555
+  name ：sh05
+  password ：5555
 
-- アドレス  simple@com
-- パスワード  123abc
+- アドレス  ：simple@com
+- パスワード  ：123abc
 
  **利用方法**
 - ログイン状態(登録していない場合は新規登録)にします。
