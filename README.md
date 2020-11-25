@@ -61,6 +61,8 @@
   - レスポンシブ機能
 
     ブラウザの縮小や携帯・タブレットなどの画角に合わせて表示できるようにCSSの表記を設定する。
+
+    ![image](https://user-images.githubusercontent.com/72375725/100292288-5ec48e00-2fc3-11eb-88b3-3b093f000d75.png)
     
 
 
