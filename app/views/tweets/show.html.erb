@@ -2,21 +2,23 @@
 
 <p id="notice"><%= notice %></p>
 
- <div class="form">
-  <p>
-   <strong>：</strong>
+ <div class="show">
+  <p class="show_tit">
+   <strong>タイトル：</strong>
    <%= @tweet.title %>
   </p>
 
-   <p>
+   <p class="show_time">
     <strong>日時</strong>
     <%= @tweet.start_time.strftime("%Y-%m-%d %H:%M") %>
    </p>
    
-   <p class="show-come">
-    <strong>コメント</strong>
+    <p class="comment">
+    <strong >コメント</strong>
+    </p>
+    <p class="show_come">
     <%= @tweet.content %>
-   </p>
+    </p>
 
 
    <% unless @tweet.nil?  ==  @tweet.image.attached?%>

@@ -5,15 +5,40 @@
    display: flex;
 }
 
+.title-name {
+  font-size: 45px;
+}
+
+.title_name2 {
+  text-decoration: none;
+}
+
 .form {
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 50px 350px 0;
+  padding: 0 0 20px 150px;
+  border: 1px solid black;
+}
+
+
+.show { 
+  align-items: center;
+  justify-content: center;
+  margin: 50px 200px 0;
+  padding: 0 0 20px 20px;
+  border: 1px solid black;
+}
+
+.show_come {
+  border: 1px solid black;
+  margin: 0 40px 20px 0;
+  height: 100px;
 }
 
 .title {
-  padding-top: 180px;
+  padding-top: 30px;
 }
 
 .time {
@@ -24,17 +49,22 @@
   margin-top: 30px;
 }
 
+.text {
+  height: 100px;
+}
+
 .submit {
-  margin-top: 30px;
+  margin: 40px 0 0 180px;
 }
 
 .image {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 
 .abc {
   display: flex;
+  margin-left: 450px;
 }
 
 .title-name {
@@ -53,12 +83,35 @@
   min-height: 400px;
   background-color: rgb(205, 202, 202);
   object-fit: contain;
+  margin-left: 60px;
 }
 
-.show-come {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0, 500px;
+
+.login { 
+  margin-right: 10px;
 }
 
+.field {
+  margin: 30px 0 0 120px;
+}
+
+.actions {
+  margin: 30px 0 0 170px;
+}
+
+.show_tit {
+  margin:20px 0 0 400px ;
+}
+
+.show_time {
+  margin-left: 400px;
+}
+
+.comment {
+  margin:30px 0 10px 450px;
+}
+
+.sign-up {
+  margin: 20px 0 0 170px;
+  
+}
