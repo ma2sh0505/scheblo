@@ -38,7 +38,7 @@
 
  **画像投稿機能**
   画像の添付ができるようにする。画像は添付してもしなくても投稿できるようにしておく。プレビュー機能は画像を添付した際に何の画像を添付したのかをわかりやすするため実装する。
- ![image](https://user-images.githubusercontent.com/72375725/100195423-aa7f2500-2f3a-11eb-99d6-7156675c6089.gif)
+ ![image](https://user-images.githubusercontent.com/72375725/100195423-aa7f2500-2f3a-11eb-99d6-7156675c6089.png)
 
 
 
