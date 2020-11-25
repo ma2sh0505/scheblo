@@ -80,8 +80,8 @@
 
  ## ローカルでの動作方法
   利用するディレクトリ下で
-  - []git https://github.com/ma2sh0505/scheblo.git
-  - []cd scheblo
-  - []bundle instal
-  - []cd db:create
-  - []cd db:migrate
+  -[]git https://github.com/ma2sh0505/scheblo.git
+  -[]cd scheblo
+  -[]bundle instal
+  -[]cd db:create
+  -[]cd db:migrate
