@@ -32,7 +32,7 @@
 
 # テーブル設計
 
-- テーブル
+ テーブル
 
 ## users テーブル
 
@@ -59,6 +59,6 @@
 
 - belongs_to :user
 
-- ER図
+ ER図
  
-![GYAZOリンク](https://gyazo.com/df4c5a3a7ec59bc490c9b5af9387ed80）
+ ![ER図](https://gyazo.com/df4c5a3a7ec59bc490c9b5af9387ed80.png）
