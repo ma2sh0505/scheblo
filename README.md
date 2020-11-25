@@ -32,6 +32,8 @@
 
 # テーブル設計
 
+- テーブル
+
 ## users テーブル
 
 | Column             | Type   | Options     |
@@ -56,3 +58,7 @@
 ### Association
 
 - belongs_to :user
+
+- ER図
+ 
+！[代替テキスト]（https://gyazo.com/df4c5a3a7ec59bc490c9b5af9387ed80）
