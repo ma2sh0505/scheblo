@@ -35,7 +35,7 @@
  カレンダーと紐づけるために少なくともタイトルと日時が入力されていれば投稿できるようにする。
   
  カレンダー内に投稿されたタイトルを表示して詳細ページに遷移し詳細を見ることができる。詳細ページにて編集・削除ができるようにする。
- ![image](https://user-images.githubusercontent.com/72375725/100194637-60e20a80-2f39-11eb-8e28-103d6ab46bbe.png)
+ ![image](https://user-images.githubusercontent.com/72375725/100199610-c259a780-2f40-11eb-908a-761573dad032.png)
  ![image](https://user-images.githubusercontent.com/72375725/100194249-aeaa4300-2f38-11eb-8949-28cf7f832ae1.png)
 
  **ユーザー登録機能**
@@ -105,5 +105,5 @@
   ruby 2.6.5を利用
   
   - パッケージ
-  
+
   deviseとsimple_calendarのgemを利用
