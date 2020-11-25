@@ -100,6 +100,10 @@
 
   以上の順番で実行する。
   
-  rubyのバージョンはruby 2.6.5を利用
+  - ruby 
   
-  gemはdeviseとsimple_calendarを利用
+  ruby 2.6.5を利用
+  
+  - パッケージ
+  
+  deviseとsimple_calendarのgemを利用
