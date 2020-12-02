@@ -64,7 +64,9 @@
 
     ブラウザの縮小や携帯・タブレットなどの画角に合わせて表示できるようにCSSの表記を設定する。
     
+  - テストコード
 
+    単体テストコードの記述
 
  **テーブル設計とER図**
   
@@ -107,9 +109,9 @@
 
   1.git https://github.com/ma2sh0505/scheblo.git  
   
-  2.cd scheblo  
+  2.cd scheblo
   
-  3.bundle instal  
+  3.bundle instal
 
   4.cd db:create  
   
