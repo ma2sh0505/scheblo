@@ -119,9 +119,11 @@
 
   以上の順番で実行する。
   
-  - ruby 
+  - 開発環境
   
-  ruby 2.6.5を利用
+  
+  ruby.JavaScript.SQL.HTML.CSS
+  rubyは2.6.5を利用
   
   - パッケージ
 
