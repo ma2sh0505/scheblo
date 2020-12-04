@@ -121,9 +121,12 @@
   
   - 開発環境
   
-  
+
   ruby.JavaScript.SQL.HTML.CSS
+  
   rubyは2.6.5を利用
+  
+  フレームワークはRuby on Rails
   
   - パッケージ
 
