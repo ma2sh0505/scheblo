@@ -124,7 +124,7 @@
 
   ruby.JavaScript.SQL.HTML.CSS
   
-  rubyは2.6.5を利用
+  rubyのver. 2.6.5
   
   フレームワークはRuby on Rails
   
