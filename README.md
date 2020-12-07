@@ -122,7 +122,7 @@
   - 開発環境
   
 
-  ruby.JavaScript.SQL.HTML.CSS
+  使用言語 ruby.JavaScript.SQL.HTML.CSS
   
   rubyのver. 2.6.5
   
