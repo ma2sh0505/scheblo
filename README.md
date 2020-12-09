@@ -128,6 +128,4 @@
   
   フレームワークはRuby on Rails
   
-  - パッケージ
-
-  deviseとsimple_calendarのgemを利用
+  パッケージはdeviseとsimple_calendarのgemを利用
