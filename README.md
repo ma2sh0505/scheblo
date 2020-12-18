@@ -131,4 +131,4 @@
   パッケージはdeviseとsimple_calendarのgemを利用
 
 
-
+  
