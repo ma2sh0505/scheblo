@@ -129,6 +129,3 @@
   フレームワークはRuby on Rails
   
   パッケージはdeviseとsimple_calendarのgemを利用
-
-
-  
