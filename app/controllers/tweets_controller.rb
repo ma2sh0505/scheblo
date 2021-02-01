@@ -12,7 +12,6 @@ class TweetsController < ApplicationController
   end
 
   def show
-   
   end
 
   def create
@@ -33,7 +32,6 @@ class TweetsController < ApplicationController
   end
 
   def edit
-    
   end
 
   def update
